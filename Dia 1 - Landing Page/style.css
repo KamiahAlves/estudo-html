@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	position: relative;
+}
+.direitoRosa{
+	flex: 1;
+	background-color: #fad1cf;
+}
+.esquerdaVerde{
+	background-color: #7ad192 ;
+	flex: 1;
+}
+button{
+	background-color: #2b2b2b;
+	color:blanchedalmond;
+	border-radius: 20px;
+}
+.meio{
+	align-items: center;
+	justify-content: center;
+	font-size: 60px;
+	text-align: center;
+	grid-area: content;
+}
+nav{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		padding: 24px;
+}
